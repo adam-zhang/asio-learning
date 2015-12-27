@@ -12,6 +12,5 @@ target_link_libraries(daytime_client
 	${Boost_FILESYSTEM_LIBRARY}
 	${Boost_SYSTEM_LIBRARY}
 	${Boost_REGEX_LIBRARY}
-	#${Boost_THREAD_LIBRARY}
 	pthread
 	)
