@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(daytime_client)
 find_package(Boost)
-find_package(Boost COMPONENTS regex system filesystem 
-	REQUIRED)
+find_package(Boost COMPONENTS regex system filesystem REQUIRED)
 include_directories(Boost_INCLUDE_DIR)
 set(sources
 	appMain.cpp)
